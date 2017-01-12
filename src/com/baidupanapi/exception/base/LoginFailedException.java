@@ -8,10 +8,6 @@ package com.baidupanapi.exception.base;
  */
 
 public class LoginFailedException extends RuntimeException{
-
-    public LoginFailedException() {
-    }
-
     public LoginFailedException(String message) {
         super(message);
     }

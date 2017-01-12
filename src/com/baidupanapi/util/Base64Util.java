@@ -5,9 +5,6 @@ import sun.misc.BASE64Encoder;
 
 import java.io.*;
 
-/**
- * Created by xm on 15/6/11.
- */
 public class Base64Util {
 
     public static void main(String[] args) throws IOException {

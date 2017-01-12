@@ -13,10 +13,6 @@ import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
-/**
- * Created by xm on 15/8/19.
- */
-
 public class RSAUtils {
 
 

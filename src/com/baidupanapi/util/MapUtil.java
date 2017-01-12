@@ -6,9 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by xm on 15/11/21.
- */
 public class MapUtil {
     public static final String CHARSET = "utf-8";
 

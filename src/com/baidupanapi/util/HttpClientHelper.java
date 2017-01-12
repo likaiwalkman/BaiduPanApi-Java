@@ -45,9 +45,6 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 import java.util.*;
 
-/**
- * Created by xm on 15-11-19.
- */
 public class HttpClientHelper {
     public static final String CHARSET = "utf-8";
 

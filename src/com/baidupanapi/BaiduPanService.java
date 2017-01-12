@@ -4,8 +4,6 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baidupanapi.runnable.base.BaseRunnable;
 import com.baidupanapi.util.HttpClientHelper;
-import com.baidupanapi.util.RandomStringGenerator;
-import com.baidupanapi.util.TimeUtil;
 import cz.msebera.android.httpclient.client.methods.CloseableHttpResponse;
 
 import java.io.File;
@@ -15,11 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- *
- * Created by xm on 15/11/21.
- * @author  xm
- */
 public class BaiduPanService extends BaseClass{
     BaiduPanService(String username, String password, BaseRunnable captchaRunnable) throws Exception {
         super(username, password, BaseData.apiTemplate, captchaRunnable);

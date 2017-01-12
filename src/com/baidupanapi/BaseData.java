@@ -1,14 +1,10 @@
 package com.baidupanapi;
 
 
-import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import com.baidupanapi.util.HttpClientHelper;
 import com.baidupanapi.util.TimeUtil;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BaseData {
 

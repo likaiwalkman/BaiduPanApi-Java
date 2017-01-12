@@ -5,9 +5,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by xm on 15-11-20.
- */
 public class RegexUtil {
 
     public static List<String> findAll(String content,String regex,int group){
